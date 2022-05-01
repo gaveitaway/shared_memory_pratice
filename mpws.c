@@ -51,7 +51,7 @@ parent process 는 shared memory 로 () 집계까지
 
 int main(int argc, char *argv[])
 {
-
+    int someone;
     int pid;
     int Permission;
     struct stat bufOfStat;
